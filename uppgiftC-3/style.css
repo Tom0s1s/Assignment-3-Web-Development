@@ -1,0 +1,100 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+/*NAVMENY*/
+.navmeny ul{
+   display: flex;
+   justify-content: space-around;
+   padding: 5px;
+   margin: 10px      ;
+   list-style-type: none;
+   border-radius: 5px;
+   background-color: lightgray;
+}
+.navmeny a{
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+.navmeny a:hover{
+    color: rgb(8, 8, 8);  
+}
+
+.navmeny ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navmeny ul li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navmeny ul li a:hover {
+    background-color: #575757;
+}
+.navmeny ul li {
+    position: relative; 
+}
+.footer {
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    width: 100%;
+    margin-top: auto; 
+    border-radius: 5px;
+}
+.box-lådor{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+.lådor{
+    border: 5px solid gray;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    height: 100px;
+    font-style: bold;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+#låda1{
+    background-color: yellow;
+    
+    top:105px;
+    right:55px;
+    z-index: 2;
+}
+#låda2{
+    background-color: cyan;
+    
+    left:100px;
+    bottom:90px;
+    z-index: 3;
+}
+#låda3{
+    background-color: green;
+    left: 55px;
+    top:-130px;
+    z-index: 1;
+}
