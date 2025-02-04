@@ -1,0 +1,149 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+/*NAVMENY*/
+.navmeny ul{
+   display: flex;
+   justify-content: space-around;
+   padding: 5px;
+   margin: 10px      ;
+   list-style-type: none;
+   border-radius: 5px;
+   background-color: lightgray;
+}
+.navmeny a{
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+.navmeny a:hover{
+    color: rgb(8, 8, 8);  
+}
+
+.navmeny ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navmeny ul li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navmeny ul li a:hover {
+    background-color: #575757;
+}
+.navmeny ul li {
+    position: relative; 
+}
+.box {
+    width: 250px;
+    padding: 25px;
+    border-width: 25px solid;
+    border-color: black;
+    background-color: lightgray;
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+    left: 45rem;
+
+}
+/* UPPGIFT A*/
+.box-s2{  
+    background-color: lightgray;
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    border: 5px solid;
+    margin:20px auto;
+}
+.box-s2 h1{
+    color: darkgreen;
+    font-family: Arial;
+    font-size: 25px;
+}
+.box-s2 h2{
+    color:yellow;
+    font-family: Arial;
+    font-size: 20px;
+}
+.box-s2 p{
+    color: red;
+    font-family: Verdana;
+    font-size: 12px;
+}
+/* UPPGIFT B*/
+.sida3{
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box-s3{
+    background-color: lightblue;
+    border: 0.5px solid;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.röd{
+    color:red;
+}
+/*UPPGIFT C*/
+
+.box-lådor{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lådor{
+    border: 5px solid gray;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    height: 100px;
+    font-style: bold;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+
+}
+#låda1{
+    background-color: yellow;
+    right:75px;
+    z-index: 1;
+    
+}
+#låda2{
+    background-color: cyan;
+    top:-200px;
+    left:50px;
+    z-index: 2;
+    
+}
+#låda3{
+    background-color: green;
+    top: -250px;
+    z-index: 3;
+}
+.footer {
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    width: 100%;
+    margin-top: auto; 
+    border-radius: 5px;
+}
